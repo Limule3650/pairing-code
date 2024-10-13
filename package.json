@@ -1,5 +1,5 @@
 {
-  "name": "inrl-bot",
+  "name": "vanitas-bot",
   "version": "1.0.0",
   "description": "deployable react ap",
   "main": "server/index.js",
@@ -12,7 +12,7 @@
     "build": "cd client && npm install && npm run build"
   },
   "keywords": [],
-  "author": "I-N-R-L",
+  "author": "Limule3650",
   "license": "MIT",
   "dependencies": {
     "@octokit/core": "^4.2.0",
