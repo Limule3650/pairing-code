@@ -34,7 +34,7 @@ app.post('/get_session', async(req, res) => {
     if (!id) return res.status(400).json({ error: "ID is required" });
     if(!id.includes('::') || !id.includes('inrl~')) return res.status(400).json({ error: "invalid ID" });
     console.log(`Received ID: ${id}`);
-    const credsId = decrypt(id.split('::')[0].replace('inrl~',''));
+    const credsId = decrypt(id.split('::')[0].replace('vanitas~',''));
     try {
         const session = await axios.get(`https://gist.githubusercontent.com/inr-l/${credsId}/raw`);
         return res.json({status: true, result: session.data });
