@@ -109,7 +109,7 @@ async function startnigg(phone, serviceProvider_) {
                 await delay(2000)
                 await negga.sendMessage(
                     negga.user.id, {
-                        text: 'Hello there! 👋 \n\nDo not share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using INRL-BOT\n\n join support group:- https://chat.whatsapp.com/JCcjvBstDKUGhbqcC2KibS \n',
+                        text: 'Hello there! 👋 \n\nDo not share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using VANITAS-AI-BOT\n\n join support channel:- https://whatsapp.com/channel/0029Vafhjw0IXnlonRAQMM2l\n',
                     });
                 console.log('Connected to WhatsApp Servers')
                 if (fs.existsSync(sessionFolder)) {
