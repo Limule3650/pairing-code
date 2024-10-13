@@ -84,7 +84,7 @@ const App = () => {
         <label>Phone number</label>
         <input 
           type="number"
-          placeholder="917025 099154"
+          placeholder="237698 581946"
           value={ipt}
           onChange={(e)=>setIpt(e.target.value)}
         />
