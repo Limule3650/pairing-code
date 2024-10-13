@@ -25,7 +25,7 @@ b.map((m)=>{
 }
 
 function decrypt(session){
-    session = session.replace(/vanitas~/,'');
+    session = session.replace(/inrl~/,'');
     let b = session.split("")
     let c = "",l="",d="",t;
     b.map((m)=>{
